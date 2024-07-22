@@ -5,7 +5,7 @@
 #include "encryption.h"
 #include "logger.h"
 
-#define USERS_FILE "data/registered_users.txt"
+#define USERS_FILE "./dat/user_data.txt"
 
 int user_exists(const char *username)
 {
