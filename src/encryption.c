@@ -2,7 +2,7 @@
 #include "encryption.h"
 
 // Simple XOR encryption for demonstration purposes
-// In a real-world application, use a strong encryption library
+
 #define KEY 0x73
 
 void custom_encrypt(const char *input, char *output)
