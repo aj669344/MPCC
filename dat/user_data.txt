@@ -1,1 +1,3 @@
 
+abc:BA@
+xyz:A@G

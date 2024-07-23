@@ -12,3 +12,301 @@
 [2024-07-23 05:46:57] DEBUG: Chat server thread created successfully.
 [2024-07-23 05:46:57] INFO: Chat server created on port 12345
 [2024-07-23 05:46:57] INFO: Server 1 started on port 12345. Waiting for connections...
+[2024-07-23 06:13:57] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 06:13:57] DEBUG: Chat server thread created successfully.
+[2024-07-23 06:13:57] INFO: Chat server created on port 1234
+[2024-07-23 06:13:57] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-23 06:27:49] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 06:27:49] DEBUG: Chat server thread created successfully.
+[2024-07-23 06:27:49] INFO: Chat server created on port 1234
+[2024-07-23 06:27:49] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-23 06:31:46] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 06:31:46] DEBUG: Chat server thread created successfully.
+[2024-07-23 06:31:46] INFO: Chat server created on port 1234
+[2024-07-23 06:31:46] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-23 06:32:24] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 06:32:24] DEBUG: Chat server thread created successfully.
+[2024-07-23 06:32:24] INFO: Chat server created on port 1234
+[2024-07-23 06:32:24] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-23 06:32:53] INFO: Starting client
+[2024-07-23 06:33:11] INFO: Connected to server
+[2024-07-23 06:33:27] INFO: User registered successfully
+[2024-07-23 06:33:27] INFO: User registered successfully
+[2024-07-23 06:33:27] DEBUG: Attempting to authenticate user
+[2024-07-23 06:33:27] DEBUG: anurag
+[2024-07-23 06:33:27] DEBUG: 
+
+[2024-07-23 06:33:27] DEBUG: anurag:spqv
+
+[2024-07-23 06:33:27] INFO: Authentication successful
+[2024-07-23 06:33:27] INFO: User anurag connected from IP 127.0.0.1
+[2024-07-23 06:34:00] INFO: Starting client
+[2024-07-23 06:34:08] INFO: Connected to server
+[2024-07-23 06:34:21] INFO: User registered successfully
+[2024-07-23 06:34:21] INFO: User registered successfully
+[2024-07-23 06:34:21] DEBUG: Attempting to authenticate user
+[2024-07-23 06:34:21] DEBUG: nee
+[2024-07-23 06:34:21] DEBUG: 
+
+[2024-07-23 06:34:21] DEBUG: anurag:spqv
+
+[2024-07-23 06:34:21] DEBUG: nee:spq
+
+[2024-07-23 06:34:21] INFO: Authentication successful
+[2024-07-23 06:34:21] INFO: User nee connected from IP 127.0.0.1
+[2024-07-23 06:34:50] INFO: Starting client
+[2024-07-23 06:34:58] INFO: Connected to server
+[2024-07-23 06:35:06] INFO: User registered successfully
+[2024-07-23 06:35:06] INFO: User registered successfully
+[2024-07-23 06:35:06] DEBUG: Attempting to authenticate user
+[2024-07-23 06:35:06] DEBUG: ada
+[2024-07-23 06:35:06] DEBUG: 
+
+[2024-07-23 06:35:06] DEBUG: anurag:spqv
+
+[2024-07-23 06:35:06] DEBUG: nee:spq
+
+[2024-07-23 06:35:06] DEBUG: ada:pqv
+
+[2024-07-23 06:35:06] INFO: Authentication successful
+[2024-07-23 06:35:06] INFO: User ada connected from IP 127.0.0.1
+[2024-07-23 06:35:41] INFO: Closing client connection
+[2024-07-23 06:35:41] INFO: Client anurag disconnected
+[2024-07-23 06:35:44] INFO: Closing client connection
+[2024-07-23 06:35:44] INFO: Client nee disconnected
+[2024-07-23 06:35:48] INFO: Closing client connection
+[2024-07-23 06:35:48] INFO: Client ada disconnected
+[2024-07-23 06:35:48] INFO: No more clients on server 1. Stopping server.
+[2024-07-23 08:37:43] FATAL: Invalid mode. Use 'server' or 'client'.
+[2024-07-23 08:37:54] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 08:37:54] DEBUG: Chat server thread created successfully.
+[2024-07-23 08:37:54] INFO: Chat server created on port 1234
+[2024-07-23 08:37:54] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-23 08:39:21] DEBUG: Creating chat server with id 1 and port 54321
+[2024-07-23 08:39:21] DEBUG: Chat server thread created successfully.
+[2024-07-23 08:39:21] INFO: Chat server created on port 54321
+[2024-07-23 08:39:21] INFO: Server 1 started on port 54321. Waiting for connections...
+[2024-07-23 08:47:05] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 08:47:05] DEBUG: Chat server thread created successfully.
+[2024-07-23 08:47:05] INFO: Chat server created on port 1234
+[2024-07-23 08:47:05] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-23 08:55:51] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 08:55:51] DEBUG: Chat server thread created successfully.
+[2024-07-23 08:55:51] INFO: Chat server created on port 1234
+[2024-07-23 08:55:51] FATAL: Error binding server socket for server 1
+[2024-07-23 08:55:56] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 08:55:56] DEBUG: Chat server thread created successfully.
+[2024-07-23 08:55:56] INFO: Chat server created on port 1234
+[2024-07-23 08:55:56] FATAL: Error binding server socket for server 1
+[2024-07-23 08:56:13] DEBUG: Creating chat server with id 1 and port 12345
+[2024-07-23 08:56:13] DEBUG: Chat server thread created successfully.
+[2024-07-23 08:56:13] INFO: Chat server created on port 12345
+[2024-07-23 08:56:13] FATAL: Error binding server socket for server 1
+[2024-07-23 08:56:28] DEBUG: Creating chat server with id 1 and port 6666
+[2024-07-23 08:56:28] DEBUG: Chat server thread created successfully.
+[2024-07-23 08:56:28] INFO: Chat server created on port 6666
+[2024-07-23 08:56:28] INFO: Server 1 started on port 6666. Waiting for connections...
+[2024-07-23 08:57:00] DEBUG: Creating chat server with id 1 and port 54321
+[2024-07-23 08:57:00] DEBUG: Chat server thread created successfully.
+[2024-07-23 08:57:00] INFO: Chat server created on port 54321
+[2024-07-23 08:57:00] FATAL: Error binding server socket for server 1
+[2024-07-23 08:57:08] DEBUG: Creating chat server with id 1 and port 12345
+[2024-07-23 08:57:08] DEBUG: Chat server thread created successfully.
+[2024-07-23 08:57:08] INFO: Chat server created on port 12345
+[2024-07-23 08:57:08] FATAL: Error binding server socket for server 1
+[2024-07-23 08:57:20] DEBUG: Creating chat server with id 1 and port 3333
+[2024-07-23 08:57:20] DEBUG: Chat server thread created successfully.
+[2024-07-23 08:57:20] INFO: Chat server created on port 3333
+[2024-07-23 08:57:20] INFO: Server 1 started on port 3333. Waiting for connections...
+[2024-07-23 08:58:19] INFO: Starting client
+[2024-07-23 08:58:33] INFO: Connected to server
+[2024-07-23 08:58:40] INFO: User registered successfully
+[2024-07-23 08:58:40] INFO: User registered successfully
+[2024-07-23 08:58:40] DEBUG: Attempting to authenticate user
+[2024-07-23 08:58:40] DEBUG: sse
+[2024-07-23 08:58:40] DEBUG: 
+
+[2024-07-23 08:58:40] DEBUG: anurag:spqv
+
+[2024-07-23 08:58:40] DEBUG: nee:spq
+
+[2024-07-23 08:58:40] DEBUG: ada:pqv
+
+[2024-07-23 08:58:40] DEBUG: sse:spq
+
+[2024-07-23 08:58:40] INFO: Authentication successful
+[2024-07-23 08:58:40] INFO: User sse connected from IP 127.0.0.1
+[2024-07-23 08:59:11] INFO: Starting client
+[2024-07-23 08:59:21] INFO: Connected to server
+[2024-07-23 08:59:32] DEBUG: Attempting to authenticate user
+[2024-07-23 08:59:32] DEBUG: abc
+[2024-07-23 08:59:32] DEBUG: 
+
+[2024-07-23 08:59:32] DEBUG: anurag:spqv
+
+[2024-07-23 08:59:32] DEBUG: nee:spq
+
+[2024-07-23 08:59:32] DEBUG: ada:pqv
+
+[2024-07-23 08:59:32] DEBUG: sse:spq
+
+[2024-07-23 08:59:32] WARNING: Authentication failed
+[2024-07-23 08:59:32] INFO: Client  disconnected
+[2024-07-23 08:59:32] INFO: No more clients on server 1. Stopping server.
+[2024-07-23 08:59:34] INFO: Starting client
+[2024-07-23 08:59:41] INFO: Connected to server
+[2024-07-23 08:59:41] INFO: Server 1 on port 6666 is shutting down
+[2024-07-23 08:59:47] INFO: User registered successfully
+[2024-07-23 08:59:47] INFO: User registered successfully
+[2024-07-23 08:59:47] DEBUG: Attempting to authenticate user
+[2024-07-23 08:59:47] DEBUG: edf
+[2024-07-23 08:59:47] DEBUG: 
+
+[2024-07-23 08:59:47] DEBUG: anurag:spqv
+
+[2024-07-23 08:59:47] DEBUG: nee:spq
+
+[2024-07-23 08:59:47] DEBUG: ada:pqv
+
+[2024-07-23 08:59:47] DEBUG: sse:spq
+
+[2024-07-23 08:59:47] DEBUG: edf:spq
+
+[2024-07-23 08:59:47] INFO: Authentication successful
+[2024-07-23 08:59:47] INFO: User edf connected from IP 127.0.0.1
+[2024-07-23 09:00:18] INFO: Starting client
+[2024-07-23 09:00:27] INFO: Connected to server
+[2024-07-23 09:00:36] INFO: User registered successfully
+[2024-07-23 09:00:36] INFO: User registered successfully
+[2024-07-23 09:00:36] DEBUG: Attempting to authenticate user
+[2024-07-23 09:00:36] DEBUG: wdc
+[2024-07-23 09:00:36] DEBUG: 
+
+[2024-07-23 09:00:36] DEBUG: anurag:spqv
+
+[2024-07-23 09:00:36] DEBUG: nee:spq
+
+[2024-07-23 09:00:36] DEBUG: ada:pqv
+
+[2024-07-23 09:00:36] DEBUG: sse:spq
+
+[2024-07-23 09:00:36] DEBUG: edf:spq
+
+[2024-07-23 09:00:36] DEBUG: wdc:qps
+
+[2024-07-23 09:00:36] INFO: Authentication successful
+[2024-07-23 09:00:36] INFO: User wdc connected from IP 127.0.0.1
+[2024-07-23 09:01:21] INFO: Starting client
+[2024-07-23 09:01:29] FATAL: Error connecting to server
+[2024-07-23 09:01:50] INFO: Starting client
+[2024-07-23 09:01:58] FATAL: Error connecting to server
+[2024-07-23 09:02:03] INFO: Receive thread ending
+[2024-07-23 09:02:07] DEBUG: Creating chat server with id 1 and port 6666
+[2024-07-23 09:02:07] DEBUG: Chat server thread created successfully.
+[2024-07-23 09:02:07] INFO: Chat server created on port 6666
+[2024-07-23 09:02:07] FATAL: Error binding server socket for server 1
+[2024-07-23 09:02:15] DEBUG: Creating chat server with id 1 and port 6665
+[2024-07-23 09:02:15] DEBUG: Chat server thread created successfully.
+[2024-07-23 09:02:15] INFO: Chat server created on port 6665
+[2024-07-23 09:02:15] INFO: Server 1 started on port 6665. Waiting for connections...
+[2024-07-23 09:02:25] INFO: Starting client
+[2024-07-23 09:02:34] INFO: Connected to server
+[2024-07-23 09:02:41] INFO: User registered successfully
+[2024-07-23 09:02:41] INFO: User registered successfully
+[2024-07-23 09:02:41] DEBUG: Attempting to authenticate user
+[2024-07-23 09:02:41] DEBUG: ert
+[2024-07-23 09:02:41] DEBUG: 
+
+[2024-07-23 09:02:41] DEBUG: anurag:spqv
+
+[2024-07-23 09:02:41] DEBUG: nee:spq
+
+[2024-07-23 09:02:41] DEBUG: ada:pqv
+
+[2024-07-23 09:02:41] DEBUG: sse:spq
+
+[2024-07-23 09:02:41] DEBUG: edf:spq
+
+[2024-07-23 09:02:41] DEBUG: wdc:qps
+
+[2024-07-23 09:02:41] DEBUG: ert:spq
+
+[2024-07-23 09:02:41] INFO: Authentication successful
+[2024-07-23 09:02:41] INFO: User ert connected from IP 127.0.0.1
+[2024-07-23 09:03:01] INFO: Starting client
+[2024-07-23 09:03:09] INFO: Connected to server
+[2024-07-23 09:03:15] INFO: User registered successfully
+[2024-07-23 09:03:15] INFO: User registered successfully
+[2024-07-23 09:03:15] DEBUG: Attempting to authenticate user
+[2024-07-23 09:03:15] DEBUG: qwer
+[2024-07-23 09:03:15] DEBUG: 
+
+[2024-07-23 09:03:15] DEBUG: anurag:spqv
+
+[2024-07-23 09:03:15] DEBUG: nee:spq
+
+[2024-07-23 09:03:15] DEBUG: ada:pqv
+
+[2024-07-23 09:03:15] DEBUG: sse:spq
+
+[2024-07-23 09:03:15] DEBUG: edf:spq
+
+[2024-07-23 09:03:15] DEBUG: wdc:qps
+
+[2024-07-23 09:03:15] DEBUG: ert:spq
+
+[2024-07-23 09:03:15] DEBUG: qwer:spq
+
+[2024-07-23 09:03:15] INFO: Authentication successful
+[2024-07-23 09:03:15] INFO: User qwer connected from IP 127.0.0.1
+[2024-07-23 09:05:52] INFO: Closing client connection
+[2024-07-23 09:05:52] INFO: Client sse disconnected
+[2024-07-23 09:05:55] INFO: Closing client connection
+[2024-07-23 09:05:55] INFO: Client qwer disconnected
+[2024-07-23 09:05:58] INFO: Closing client connection
+[2024-07-23 09:05:58] INFO: Client ert disconnected
+[2024-07-23 09:05:58] INFO: No more clients on server 1. Stopping server.
+[2024-07-23 09:06:04] INFO: Receive thread ending
+[2024-07-23 09:06:06] INFO: Closing client connection
+[2024-07-23 09:47:50] DEBUG: Creating chat server with id 1 and port 54321
+[2024-07-23 09:47:50] DEBUG: Chat server thread created successfully.
+[2024-07-23 09:47:50] INFO: Chat server created on port 54321
+[2024-07-23 09:47:50] FATAL: Error binding server socket for server 1
+[2024-07-23 09:58:53] DEBUG: Creating chat server with id 1 and port 12345
+[2024-07-23 09:58:53] DEBUG: Chat server thread created successfully.
+[2024-07-23 09:58:53] INFO: Chat server created on port 12345
+[2024-07-23 09:58:53] FATAL: Error binding server socket for server 1
+[2024-07-23 10:07:04] DEBUG: Creating chat server with id 1 and port 6666
+[2024-07-23 10:07:04] DEBUG: Chat server thread created successfully.
+[2024-07-23 10:07:04] INFO: Chat server created on port 6666
+[2024-07-23 10:07:04] INFO: Server 1 started on port 6666. Waiting for connections...
+[2024-07-23 10:07:44] INFO: Starting client
+[2024-07-23 10:07:54] INFO: Connected to server
+[2024-07-23 10:08:15] INFO: User registered successfully
+[2024-07-23 10:08:15] INFO: User registered successfully
+[2024-07-23 10:08:15] DEBUG: Attempting to authenticate user
+[2024-07-23 10:08:15] DEBUG: abc
+[2024-07-23 10:08:15] DEBUG: 
+
+[2024-07-23 10:08:15] DEBUG: abc:BA@
+
+[2024-07-23 10:08:15] INFO: Authentication successful
+[2024-07-23 10:08:15] INFO: User abc connected from IP 127.0.0.1
+[2024-07-23 10:09:12] INFO: Starting client
+[2024-07-23 10:09:33] INFO: Connected to server
+[2024-07-23 10:09:59] INFO: User registered successfully
+[2024-07-23 10:09:59] INFO: User registered successfully
+[2024-07-23 10:09:59] DEBUG: Attempting to authenticate user
+[2024-07-23 10:09:59] DEBUG: xyz
+[2024-07-23 10:09:59] DEBUG: 
+
+[2024-07-23 10:09:59] DEBUG: abc:BA@
+
+[2024-07-23 10:09:59] DEBUG: xyz:A@G
+
+[2024-07-23 10:09:59] INFO: Authentication successful
+[2024-07-23 10:09:59] INFO: User xyz connected from IP 127.0.0.1
+[2024-07-23 10:16:08] INFO: Receive thread ending
+[2024-07-23 10:16:08] INFO: Receive thread ending
+[2024-07-23 10:16:48] INFO: Closing client connection
+[2024-07-23 10:17:44] INFO: Closing client connection
