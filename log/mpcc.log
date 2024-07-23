@@ -1,1 +1,14 @@
 
+[2024-07-23 05:45:12] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 05:45:12] DEBUG: Chat server thread created successfully.
+[2024-07-23 05:45:12] INFO: Chat server created on port 1234
+[2024-07-23 05:45:12] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-23 05:46:38] FATAL: Invalid mode. Use 'server' or 'client'.
+[2024-07-23 05:46:48] DEBUG: Creating chat server with id 1 and port 123
+[2024-07-23 05:46:48] DEBUG: Chat server thread created successfully.
+[2024-07-23 05:46:48] INFO: Chat server created on port 123
+[2024-07-23 05:46:48] FATAL: Error binding server socket for server 1
+[2024-07-23 05:46:57] DEBUG: Creating chat server with id 1 and port 12345
+[2024-07-23 05:46:57] DEBUG: Chat server thread created successfully.
+[2024-07-23 05:46:57] INFO: Chat server created on port 12345
+[2024-07-23 05:46:57] INFO: Server 1 started on port 12345. Waiting for connections...
