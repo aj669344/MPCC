@@ -13,6 +13,7 @@
 
 #define MAX_MESSAGE_LENGTH 1024
 
+// Function to broadcast a message to all clients except the sender
 void broadcast_message(chat_server_t *server, char *message, int sender_socket)
 {
     pthread_mutex_lock(&server->clients_mutex);
@@ -28,6 +29,7 @@ void broadcast_message(chat_server_t *server, char *message, int sender_socket)
     pthread_mutex_unlock(&server->clients_mutex);
 }
 
+// Function to remove a client from the server
 void remove_client(chat_server_t *server, client_t *client)
 {
     pthread_mutex_lock(&server->clients_mutex);
@@ -46,6 +48,7 @@ void remove_client(chat_server_t *server, client_t *client)
     free(client);
 }
 
+// Function to handle client connections
 void *handle_client(void *arg)
 {
     client_t *client = (client_t *)arg;
@@ -53,30 +56,36 @@ void *handle_client(void *arg)
     char buffer[MAX_MESSAGE_LENGTH];
     int read_size;
 
-    // Wait for the username
+    // Wait for the username from the client
     read_size = recv(client->socket, buffer, sizeof(buffer) - 1, 0);
     if (read_size > 0)
     {
         buffer[read_size] = '\0';
         if (strncmp(buffer, "USERNAME:", 9) == 0)
         {
+            // Extract and store the username
             strncpy(client->username, buffer + 9, sizeof(client->username) - 1);
             client->username[sizeof(client->username) - 1] = '\0';
             log_info("User %s connected from IP %s", client->username, client->ip_address);
         }
     }
 
+    // Handle incoming messages from the client
     while ((read_size = recv(client->socket, buffer, sizeof(buffer) - 1, 0)) > 0)
     {
         buffer[read_size] = '\0';
         char decrypted_msg[MAX_MESSAGE_LENGTH];
         custom_decrypt(buffer, decrypted_msg);
 
+        // Prepare broadcast message format including username and IP
         char broadcast_buffer[MAX_MESSAGE_LENGTH + 100];
         snprintf(broadcast_buffer, sizeof(broadcast_buffer), "%s (%s): %s", client->username, client->ip_address, decrypted_msg);
+        
+        // Broadcast the message to all clients except the sender
         broadcast_message(server, broadcast_buffer, client->socket);
     }
 
+    // Client disconnected handling
     if (read_size == 0)
     {
         log_info("Client %s disconnected", client->username);
@@ -86,8 +95,10 @@ void *handle_client(void *arg)
         log_error("Receive failed from client %s", client->username);
     }
 
+    // Remove the client from the server
     remove_client(server, client);
 
+    // If no more clients are connected, stop the server
     if (server->client_count == 0)
     {
         log_info("No more clients on server %d. Stopping server.", server->id);
@@ -98,12 +109,14 @@ void *handle_client(void *arg)
     return NULL;
 }
 
+// Function to run the server and handle incoming client connections
 void *run_server(void *arg)
 {
     chat_server_t *server = (chat_server_t *)arg;
     struct sockaddr_in server_addr, client_addr;
     socklen_t addr_size = sizeof(struct sockaddr_in);
 
+    // Create server socket
     server->server_socket = socket(AF_INET, SOCK_STREAM, 0);
     if (server->server_socket == -1)
     {
@@ -111,16 +124,19 @@ void *run_server(void *arg)
         return NULL;
     }
 
+    // Configure server address
     server_addr.sin_family = AF_INET;
     server_addr.sin_addr.s_addr = INADDR_ANY;
     server_addr.sin_port = htons(server->port);
 
+    // Bind server socket
     if (bind(server->server_socket, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0)
     {
         log_fatal("Error binding server socket for server %d", server->id);
         return NULL;
     }
 
+    // Start listening for incoming connections
     if (listen(server->server_socket, 10) < 0)
     {
         log_fatal("Error listening on server socket for server %d", server->id);
@@ -129,6 +145,7 @@ void *run_server(void *arg)
 
     log_info("Server %d started on port %d. Waiting for connections...", server->id, server->port);
 
+    // Accept and handle incoming client connections
     while (server->running)
     {
         int client_socket = accept(server->server_socket, (struct sockaddr *)&client_addr, &addr_size);
@@ -141,6 +158,7 @@ void *run_server(void *arg)
             continue;
         }
 
+        // Create a client structure and initialize it
         client_t *client = malloc(sizeof(client_t));
         if (client == NULL)
         {
@@ -154,6 +172,7 @@ void *run_server(void *arg)
         client->server = server;
         inet_ntop(AF_INET, &(client->address.sin_addr), client->ip_address, INET_ADDRSTRLEN);
 
+        // Add client to the server's client list
         pthread_mutex_lock(&server->clients_mutex);
         int i;
         for (i = 0; i < MAX_CLIENTS; i++)
@@ -167,6 +186,7 @@ void *run_server(void *arg)
         }
         pthread_mutex_unlock(&server->clients_mutex);
 
+        // Handle case when server is full
         if (i == MAX_CLIENTS)
         {
             log_error("Server %d is full, connection rejected", server->id);
@@ -175,6 +195,7 @@ void *run_server(void *arg)
             continue;
         }
 
+        // Create a thread to handle the client
         pthread_t thread_id;
         if (pthread_create(&thread_id, NULL, handle_client, (void *)client) != 0)
         {
@@ -187,12 +208,14 @@ void *run_server(void *arg)
         }
     }
 
+    // Server shutdown handling
     log_info("Server %d on port %d is shutting down", server->id, server->port);
     close(server->server_socket);
 
     return NULL;
 }
 
+// Function to create and initialize a chat server
 chat_server_t *create_chat_server(int id, int port)
 {
     log_debug("Creating chat server with id %d and port %d", id, port);
@@ -207,22 +230,26 @@ chat_server_t *create_chat_server(int id, int port)
         return NULL;
     }
 
+    // Initialize server attributes
     server->id = id;
     server->port = port;
     server->client_count = 0;
     server->running = true;
 
+    // Initialize clients mutex
     if (pthread_mutex_init(&server->clients_mutex, NULL) != 0) {
         log_error("Failed to initialize clients mutex");
         free(server);
         return NULL;
     }
 
+    // Initialize clients array
     for (int i = 0; i < MAX_CLIENTS; i++)
     {
         server->clients[i] = NULL;
     }
 
+    // Create a thread to run the server
     if (pthread_create(&server->thread, NULL, run_server, (void *)server) != 0)
     {
         log_error("Failed to create thread for chat server %d", id);
@@ -234,5 +261,3 @@ chat_server_t *create_chat_server(int id, int port)
     log_debug("Chat server thread created successfully.");
     return server;
 }
-
-
