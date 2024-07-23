@@ -5,7 +5,7 @@
 #include <string.h>
 #include "logger.h"
 
-#define LOG_FILE "./log/mpcc.log"
+#define LOG_FILE "../log/mpcc.log"
 #define MAX_LOG_LENGTH 1024
 #define TIME_BUF_SIZE 64
 
