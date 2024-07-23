@@ -19,6 +19,7 @@ static int client_socket;
 static char username[MAX_USERNAME_LENGTH];
 static volatile int running = 1;
 
+// Function to handle receiving messages from the server
 static void *receive_messages(void *arg)
 {
     char buffer[MAX_MESSAGE_LENGTH];
@@ -32,12 +33,14 @@ static void *receive_messages(void *arg)
         if (read_size > 0)
         {
             buffer[read_size] = '\0';
+            // Check for server shutdown signal
             if (strcmp(buffer, "SERVER_SHUTDOWN") == 0)
             {
                 printf("Server has been shut down. Disconnecting...\n");
                 running = 0;
                 break;
             }
+            // Decrypt and print received message
             char decrypted_msg[MAX_MESSAGE_LENGTH];
             custom_decrypt(buffer, decrypted_msg);
             printf("%s\n", decrypted_msg);
@@ -63,6 +66,7 @@ static void *receive_messages(void *arg)
     return NULL;
 }
 
+// Function to run the client application
 void run_client()
 {
     char SERVER_IP[MAX_IP_LENGTH];
@@ -71,6 +75,7 @@ void run_client()
 
     log_info("Starting client");
 
+    // Read server IP from user
     printf("Enter server IP: ");
     if (fgets(SERVER_IP, sizeof(SERVER_IP), stdin) == NULL)
     {
@@ -79,6 +84,7 @@ void run_client()
     }
     SERVER_IP[strcspn(SERVER_IP, "\n")] = 0;
 
+    // Read server port from user
     printf("Enter server port: ");
     char port_str[6];
     if (fgets(port_str, sizeof(port_str), stdin) == NULL)
@@ -93,6 +99,7 @@ void run_client()
         return;
     }
 
+    // Create client socket
     client_socket = socket(AF_INET, SOCK_STREAM, 0);
     if (client_socket == -1)
     {
@@ -100,10 +107,12 @@ void run_client()
         return;
     }
 
+    // Configure server address
     server_addr.sin_family = AF_INET;
     server_addr.sin_addr.s_addr = inet_addr(SERVER_IP);
     server_addr.sin_port = htons(PORT);
 
+    // Connect to server
     if (connect(client_socket, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0)
     {
         log_fatal("Error connecting to server");
@@ -113,6 +122,7 @@ void run_client()
 
     log_info("Connected to server");
 
+    // Read username from user
     printf("Enter username: ");
     if (fgets(username, sizeof(username), stdin) == NULL)
     {
@@ -122,6 +132,7 @@ void run_client()
     }
     username[strcspn(username, "\n")] = 0;
 
+    // Read password from user
     char password[MAX_PASSWORD_LENGTH];
     printf("Enter password: ");
     if (fgets(password, sizeof(password), stdin) == NULL)
@@ -132,6 +143,7 @@ void run_client()
     }
     password[strcspn(password, "\n")] = 0;
 
+    // Check if user wants to register
     printf("Do you want to register as a new user? (y/n): ");
     char register_choice[2];
     if (fgets(register_choice, sizeof(register_choice), stdin) == NULL)
@@ -142,6 +154,7 @@ void run_client()
     }
     if (register_choice[0] == 'y' || register_choice[0] == 'Y')
     {
+        // Attempt to register the user
         if (register_user(username, password))
         {
             log_info("User registered successfully");
@@ -154,6 +167,7 @@ void run_client()
         }
     }
 
+    // Authenticate the user
     if (!authenticate_user(username, password))
     {
         log_warning("Authentication failed");
@@ -163,10 +177,12 @@ void run_client()
 
     log_info("Authentication successful");
 
+    // Send username to server
     char username_msg[MAX_MESSAGE_LENGTH];
     snprintf(username_msg, sizeof(username_msg), "USERNAME:%s", username);
     send(client_socket, username_msg, strlen(username_msg), 0);
 
+    // Create thread to receive messages from server
     pthread_t receive_thread;
     if (pthread_create(&receive_thread, NULL, receive_messages, NULL) != 0)
     {
@@ -178,6 +194,7 @@ void run_client()
     char message[MAX_MESSAGE_LENGTH];
     while (running)
     {
+        // Read user input message
         if (fgets(message, sizeof(message), stdin) == NULL)
         {
             if (running)
@@ -188,12 +205,14 @@ void run_client()
         }
         message[strcspn(message, "\n")] = 0;
 
+        // Check if user wants to exit
         if (strcmp(message, "exit") == 0)
         {
             running = 0;
             break;
         }
 
+        // Encrypt and send message to server
         char encrypted_msg[MAX_MESSAGE_LENGTH];
         custom_encrypt(message, encrypted_msg);
         if (send(client_socket, encrypted_msg, strlen(encrypted_msg), 0) < 0)
