@@ -23,4 +23,4 @@ $(OBJDIR)/%.o: ../src/%.c | $(OBJDIR)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -rf $(OBJDIR)/ $(BINDIR)/
+	rm -rf $(OBJDIR)/* $(BINDIR)/*
