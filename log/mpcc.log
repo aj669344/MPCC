@@ -310,3 +310,947 @@
 [2024-07-23 10:16:08] INFO: Receive thread ending
 [2024-07-23 10:16:48] INFO: Closing client connection
 [2024-07-23 10:17:44] INFO: Closing client connection
+[2024-07-23 15:51:39] DEBUG: Creating chat server with id 1 and port 6666
+[2024-07-23 15:51:39] DEBUG: Chat server thread created successfully.
+[2024-07-23 15:51:39] INFO: Chat server created on port 6666
+[2024-07-23 15:51:39] INFO: Server 1 started on port 6666. Waiting for connections...
+[2024-07-23 15:52:33] INFO: Starting client
+[2024-07-23 15:52:42] INFO: Connected to server
+[2024-07-23 15:52:52] INFO: User registered successfully
+[2024-07-23 15:52:52] INFO: User registered successfully
+[2024-07-23 15:52:52] DEBUG: Attempting to authenticate user
+[2024-07-23 15:52:52] DEBUG: fgh
+[2024-07-23 15:52:52] DEBUG: 
+
+[2024-07-23 15:52:52] DEBUG: abc:BA@
+
+[2024-07-23 15:52:52] DEBUG: xyz:A@G
+
+[2024-07-23 15:52:52] DEBUG: fgh:G@F
+
+[2024-07-23 15:52:52] INFO: Authentication successful
+[2024-07-23 15:52:52] INFO: User fgh connected from IP 127.0.0.1
+[2024-07-23 15:53:51] INFO: Starting client
+[2024-07-23 15:54:00] INFO: Connected to server
+[2024-07-23 15:54:10] INFO: User registered successfully
+[2024-07-23 15:54:10] INFO: User registered successfully
+[2024-07-23 15:54:10] DEBUG: Attempting to authenticate user
+[2024-07-23 15:54:10] DEBUG: efg
+[2024-07-23 15:54:10] DEBUG: 
+
+[2024-07-23 15:54:10] DEBUG: abc:BA@
+
+[2024-07-23 15:54:10] DEBUG: xyz:A@G
+
+[2024-07-23 15:54:10] DEBUG: fgh:G@F
+
+[2024-07-23 15:54:10] DEBUG: efg:@A
+
+[2024-07-23 15:54:10] WARNING: Authentication failed
+[2024-07-23 15:54:10] INFO: Client  disconnected
+[2024-07-23 15:54:27] INFO: Starting client
+[2024-07-23 15:54:48] INFO: Connected to server
+[2024-07-23 15:55:00] INFO: User registered successfully
+[2024-07-23 15:55:00] INFO: User registered successfully
+[2024-07-23 15:55:00] DEBUG: Attempting to authenticate user
+[2024-07-23 15:55:00] DEBUG: hjg
+[2024-07-23 15:55:00] DEBUG: 
+
+[2024-07-23 15:55:00] DEBUG: abc:BA@
+
+[2024-07-23 15:55:00] DEBUG: xyz:A@G
+
+[2024-07-23 15:55:00] DEBUG: fgh:G@F
+
+[2024-07-23 15:55:00] DEBUG: efg:@A
+
+[2024-07-23 15:55:00] DEBUG: hjg:
+
+[2024-07-23 15:55:00] WARNING: Authentication failed
+[2024-07-23 15:55:00] INFO: Client  disconnected
+[2024-07-23 15:55:13] INFO: Starting client
+[2024-07-23 15:55:25] INFO: Connected to server
+[2024-07-23 15:55:37] INFO: User registered successfully
+[2024-07-23 15:55:37] INFO: User registered successfully
+[2024-07-23 15:55:37] DEBUG: Attempting to authenticate user
+[2024-07-23 15:55:37] DEBUG: yuiop
+[2024-07-23 15:55:37] DEBUG: 
+
+[2024-07-23 15:55:37] DEBUG: abc:BA@
+
+[2024-07-23 15:55:37] DEBUG: xyz:A@G
+
+[2024-07-23 15:55:37] DEBUG: fgh:G@F
+
+[2024-07-23 15:55:37] DEBUG: efg:@A
+
+[2024-07-23 15:55:37] DEBUG: hjg:
+
+[2024-07-23 15:55:37] DEBUG: yuiop:FEDKJ
+
+[2024-07-23 15:55:37] INFO: Authentication successful
+[2024-07-23 15:55:37] INFO: User yuiop connected from IP 127.0.0.1
+[2024-07-23 15:55:45] INFO: Client yuiop disconnected
+[2024-07-23 15:55:47] INFO: Starting client
+[2024-07-23 15:56:06] INFO: Connected to server
+[2024-07-23 15:56:20] INFO: User registered successfully
+[2024-07-23 15:56:20] INFO: User registered successfully
+[2024-07-23 15:56:20] DEBUG: Attempting to authenticate user
+[2024-07-23 15:56:20] DEBUG: qwertyuiop
+[2024-07-23 15:56:20] DEBUG: 
+
+[2024-07-23 15:56:20] DEBUG: abc:BA@
+
+[2024-07-23 15:56:20] DEBUG: xyz:A@G
+
+[2024-07-23 15:56:20] DEBUG: fgh:G@F
+
+[2024-07-23 15:56:20] DEBUG: efg:@A
+
+[2024-07-23 15:56:20] DEBUG: hjg:
+
+[2024-07-23 15:56:20] DEBUG: yuiop:FEDKJ
+
+[2024-07-23 15:56:20] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-23 15:56:20] INFO: Authentication successful
+[2024-07-23 15:56:20] INFO: User qwertyuiop connected from IP 127.0.0.1
+[2024-07-23 15:56:31] INFO: Client qwertyuiop disconnected
+[2024-07-23 15:56:34] INFO: Starting client
+[2024-07-23 15:56:42] INFO: Connected to server
+[2024-07-23 15:57:05] INFO: User registered successfully
+[2024-07-23 15:57:05] INFO: User registered successfully
+[2024-07-23 15:57:05] DEBUG: Attempting to authenticate user
+[2024-07-23 15:57:05] DEBUG: asdfghjkl
+[2024-07-23 15:57:05] DEBUG: 
+
+[2024-07-23 15:57:05] DEBUG: abc:BA@
+
+[2024-07-23 15:57:05] DEBUG: xyz:A@G
+
+[2024-07-23 15:57:05] DEBUG: fgh:G@F
+
+[2024-07-23 15:57:05] DEBUG: efg:@A
+
+[2024-07-23 15:57:05] DEBUG: hjg:
+
+[2024-07-23 15:57:05] DEBUG: yuiop:FEDKJ
+
+[2024-07-23 15:57:05] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-23 15:57:05] DEBUG: asdfghjkl:
+
+[2024-07-23 15:57:05] WARNING: Authentication failed
+[2024-07-23 15:57:05] INFO: Client qwertyuiop disconnected
+[2024-07-23 15:57:19] INFO: Starting client
+[2024-07-23 15:57:28] INFO: Connected to server
+[2024-07-23 15:57:40] INFO: User registered successfully
+[2024-07-23 15:57:40] INFO: User registered successfully
+[2024-07-23 15:57:40] DEBUG: Attempting to authenticate user
+[2024-07-23 15:57:40] DEBUG: sdhgrr
+[2024-07-23 15:57:40] DEBUG: 
+
+[2024-07-23 15:57:40] DEBUG: abc:BA@
+
+[2024-07-23 15:57:40] DEBUG: xyz:A@G
+
+[2024-07-23 15:57:40] DEBUG: fgh:G@F
+
+[2024-07-23 15:57:40] DEBUG: efg:@A
+
+[2024-07-23 15:57:40] DEBUG: hjg:
+
+[2024-07-23 15:57:40] DEBUG: yuiop:FEDKJ
+
+[2024-07-23 15:57:40] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-23 15:57:40] DEBUG: asdfghjkl:
+
+[2024-07-23 15:57:40] DEBUG: sdhgrr:
+
+[2024-07-23 15:57:40] WARNING: Authentication failed
+[2024-07-23 15:57:40] INFO: Client qwertyuiop disconnected
+[2024-07-23 16:00:33] INFO: Starting client
+[2024-07-23 16:00:40] INFO: Connected to server
+[2024-07-23 16:02:26] INFO: User registered successfully
+[2024-07-23 16:02:26] INFO: User registered successfully
+[2024-07-23 16:02:26] DEBUG: Attempting to authenticate user
+[2024-07-23 16:02:26] DEBUG: xcvnf
+[2024-07-23 16:02:26] DEBUG: 
+
+[2024-07-23 16:02:26] DEBUG: abc:BA@
+
+[2024-07-23 16:02:26] DEBUG: xyz:A@G
+
+[2024-07-23 16:02:26] DEBUG: fgh:G@F
+
+[2024-07-23 16:02:26] DEBUG: efg:@A
+
+[2024-07-23 16:02:26] DEBUG: hjg:
+
+[2024-07-23 16:02:26] DEBUG: yuiop:FEDKJ
+
+[2024-07-23 16:02:26] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-23 16:02:26] DEBUG: asdfghjkl:
+
+[2024-07-23 16:02:26] DEBUG: sdhgrr:
+
+[2024-07-23 16:02:26] DEBUG: xcvnf:
+
+[2024-07-23 16:02:26] INFO: Authentication successful
+[2024-07-23 16:02:26] INFO: User xcvnf connected from IP 127.0.0.1
+[2024-07-23 16:02:47] INFO: Closing client connection
+[2024-07-23 16:02:47] INFO: Client xcvnf disconnected
+[2024-07-23 16:02:52] INFO: Closing client connection
+[2024-07-23 16:02:52] INFO: Client fgh disconnected
+[2024-07-23 16:02:52] INFO: No more clients on server 1. Stopping server.
+[2024-07-23 17:14:51] DEBUG: Creating chat server with id 1 and port 6666
+[2024-07-23 17:14:51] DEBUG: Chat server thread created successfully.
+[2024-07-23 17:14:51] INFO: Chat server created on port 6666
+[2024-07-23 17:14:51] INFO: Server 1 started on port 6666. Waiting for connections...
+[2024-07-23 17:31:20] DEBUG: Creating chat server with id 1 and port 6666
+[2024-07-23 17:31:20] DEBUG: Chat server thread created successfully.
+[2024-07-23 17:31:20] INFO: Chat server created on port 6666
+[2024-07-23 17:31:20] INFO: Server 1 started on port 6666. Waiting for connections...
+[2024-07-23 17:32:37] DEBUG: Creating chat server with id 1 and port 6666
+[2024-07-23 17:32:37] DEBUG: Chat server thread created successfully.
+[2024-07-23 17:32:37] INFO: Chat server created on port 6666
+[2024-07-23 17:32:37] INFO: Server 1 started on port 6666. Waiting for connections...
+[2024-07-23 17:53:13] DEBUG: Creating chat server with id 1 and port 6666
+[2024-07-23 17:53:13] DEBUG: Chat server thread created successfully.
+[2024-07-23 17:53:13] INFO: Chat server created on port 6666
+[2024-07-23 17:53:13] INFO: Server 1 started on port 6666. Waiting for connections...
+[2024-07-23 17:53:19] INFO: Server 1 on port 6666 is shutting down
+[2024-07-23 17:53:19] INFO: Server 1 on port 6666 has been stopped
+[2024-07-23 18:06:32] DEBUG: Creating chat server with id 1 and port 6666
+[2024-07-23 18:06:32] DEBUG: Chat server thread created successfully.
+[2024-07-23 18:06:32] INFO: Chat server created on port 6666
+[2024-07-23 18:06:32] INFO: Server 1 started on port 6666. Waiting for connections...
+[2024-07-23 18:06:34] INFO: Server 1 on port 6666 is shutting down
+[2024-07-23 18:06:34] INFO: Server 1 on port 6666 has been stopped
+[2024-07-23 18:08:12] DEBUG: Creating chat server with id 1 and port 54321
+[2024-07-23 18:08:12] DEBUG: Chat server thread created successfully.
+[2024-07-23 18:08:12] INFO: Chat server created on port 54321
+[2024-07-23 18:08:12] INFO: Server 1 started on port 54321. Waiting for connections...
+[2024-07-23 18:08:14] INFO: Server 1 on port 54321 is shutting down
+[2024-07-23 18:08:14] INFO: Server 1 on port 54321 has been stopped
+[2024-07-23 18:08:18] DEBUG: Creating chat server with id 1 and port 54321
+[2024-07-23 18:08:18] DEBUG: Chat server thread created successfully.
+[2024-07-23 18:08:18] INFO: Chat server created on port 54321
+[2024-07-23 18:08:18] INFO: Server 1 started on port 54321. Waiting for connections...
+[2024-07-23 18:08:21] INFO: Server 1 on port 54321 is shutting down
+[2024-07-23 18:08:21] INFO: Server 1 on port 54321 has been stopped
+[2024-07-23 18:19:53] DEBUG: Creating chat server with id 1 and port 54321
+[2024-07-23 18:19:53] DEBUG: Chat server thread created successfully.
+[2024-07-23 18:19:53] INFO: Chat server created on port 54321
+[2024-07-23 18:19:53] INFO: Server 1 started on port 54321. Waiting for connections...
+[2024-07-23 18:21:44] INFO: Starting client
+[2024-07-23 18:21:55] INFO: Connected to server
+[2024-07-23 18:22:14] DEBUG: Attempting to authenticate user
+[2024-07-23 18:22:14] DEBUG: 
+[2024-07-23 18:22:14] DEBUG: 
+
+[2024-07-23 18:22:14] DEBUG: abc:BA@
+
+[2024-07-23 18:22:14] DEBUG: xyz:A@G
+
+[2024-07-23 18:22:14] DEBUG: fgh:G@F
+
+[2024-07-23 18:22:14] DEBUG: efg:@A
+
+[2024-07-23 18:22:14] DEBUG: hjg:
+
+[2024-07-23 18:22:14] DEBUG: yuiop:FEDKJ
+
+[2024-07-23 18:22:14] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-23 18:22:14] DEBUG: asdfghjkl:
+
+[2024-07-23 18:22:14] DEBUG: sdhgrr:
+
+[2024-07-23 18:22:14] DEBUG: xcvnf:
+
+[2024-07-23 18:22:14] WARNING: Authentication failed
+[2024-07-23 18:22:14] INFO: Client  disconnected
+[2024-07-23 18:22:14] INFO: No more clients on server 1. Stopping server.
+[2024-07-23 18:22:21] INFO: Server 1 on port 54321 is shutting down
+[2024-07-23 18:22:21] INFO: Server 1 on port 54321 has been stopped
+[2024-07-23 18:22:33] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 18:22:33] DEBUG: Chat server thread created successfully.
+[2024-07-23 18:22:33] INFO: Chat server created on port 1234
+[2024-07-23 18:22:33] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-23 18:22:38] INFO: Starting client
+[2024-07-23 18:22:47] INFO: Connected to server
+[2024-07-23 18:23:07] INFO: User registered successfully
+[2024-07-23 18:23:07] INFO: User registered successfully
+[2024-07-23 18:23:07] DEBUG: Attempting to authenticate user
+[2024-07-23 18:23:07] DEBUG: ada
+[2024-07-23 18:23:07] DEBUG: 
+
+[2024-07-23 18:23:07] DEBUG: abc:BA@
+
+[2024-07-23 18:23:07] DEBUG: xyz:A@G
+
+[2024-07-23 18:23:07] DEBUG: fgh:G@F
+
+[2024-07-23 18:23:07] DEBUG: efg:@A
+
+[2024-07-23 18:23:07] DEBUG: hjg:
+
+[2024-07-23 18:23:07] DEBUG: yuiop:FEDKJ
+
+[2024-07-23 18:23:07] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-23 18:23:07] DEBUG: asdfghjkl:
+
+[2024-07-23 18:23:07] DEBUG: sdhgrr:
+
+[2024-07-23 18:23:07] DEBUG: xcvnf:
+
+[2024-07-23 18:23:07] DEBUG: ada:BA
+
+[2024-07-23 18:23:07] INFO: Authentication successful
+[2024-07-23 18:23:07] INFO: User ada connected from IP 127.0.0.1
+[2024-07-23 18:23:34] INFO: Starting client
+[2024-07-23 18:23:47] INFO: Connected to server
+[2024-07-23 18:24:01] INFO: User registered successfully
+[2024-07-23 18:24:01] INFO: User registered successfully
+[2024-07-23 18:24:01] DEBUG: Attempting to authenticate user
+[2024-07-23 18:24:01] DEBUG: anu
+[2024-07-23 18:24:01] DEBUG: 
+
+[2024-07-23 18:24:01] DEBUG: abc:BA@
+
+[2024-07-23 18:24:01] DEBUG: xyz:A@G
+
+[2024-07-23 18:24:01] DEBUG: fgh:G@F
+
+[2024-07-23 18:24:01] DEBUG: efg:@A
+
+[2024-07-23 18:24:01] DEBUG: hjg:
+
+[2024-07-23 18:24:01] DEBUG: yuiop:FEDKJ
+
+[2024-07-23 18:24:01] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-23 18:24:01] DEBUG: asdfghjkl:
+
+[2024-07-23 18:24:01] DEBUG: sdhgrr:
+
+[2024-07-23 18:24:01] DEBUG: xcvnf:
+
+[2024-07-23 18:24:01] DEBUG: ada:BA
+
+[2024-07-23 18:24:01] DEBUG: anu:@G
+
+[2024-07-23 18:24:01] INFO: Authentication successful
+[2024-07-23 18:24:01] INFO: User anu connected from IP 127.0.0.1
+[2024-07-23 18:26:59] INFO: Client anu disconnected
+[2024-07-23 18:32:35] INFO: Closing client connection
+[2024-07-23 18:32:35] INFO: Client ada disconnected
+[2024-07-23 18:32:35] INFO: No more clients on server 1. Stopping server.
+[2024-07-23 18:32:38] INFO: Server 1 on port 1234 is shutting down
+[2024-07-23 18:32:38] INFO: Server 1 on port 1234 has been stopped
+[2024-07-23 18:42:28] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 18:42:28] DEBUG: Chat server thread created successfully.
+[2024-07-23 18:42:28] INFO: Chat server created on port 1234
+[2024-07-23 18:42:28] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-23 18:42:52] INFO: Starting client
+[2024-07-23 18:43:00] ERROR: Invalid port number
+[2024-07-23 18:43:11] INFO: Starting client
+[2024-07-23 18:43:21] INFO: Connected to server
+[2024-07-23 18:43:29] DEBUG: Attempting to authenticate user
+[2024-07-23 18:43:29] DEBUG: ada
+[2024-07-23 18:43:29] DEBUG: 
+
+[2024-07-23 18:43:29] DEBUG: abc:BA@
+
+[2024-07-23 18:43:29] DEBUG: xyz:A@G
+
+[2024-07-23 18:43:29] DEBUG: fgh:G@F
+
+[2024-07-23 18:43:29] DEBUG: efg:@A
+
+[2024-07-23 18:43:29] DEBUG: hjg:
+
+[2024-07-23 18:43:29] DEBUG: yuiop:FEDKJ
+
+[2024-07-23 18:43:29] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-23 18:43:29] DEBUG: asdfghjkl:
+
+[2024-07-23 18:43:29] DEBUG: sdhgrr:
+
+[2024-07-23 18:43:29] DEBUG: xcvnf:
+
+[2024-07-23 18:43:29] DEBUG: ada:BA
+
+[2024-07-23 18:43:29] DEBUG: anu:@G
+
+[2024-07-23 18:43:29] WARNING: Authentication failed
+[2024-07-23 18:43:29] INFO: Client  disconnected
+[2024-07-23 18:43:29] INFO: No more clients on server 1. Stopping server.
+[2024-07-23 18:43:33] INFO: Starting client
+[2024-07-23 18:43:42] INFO: Connected to server
+[2024-07-23 18:43:42] INFO: Server 1 on port 1234 is shutting down
+[2024-07-23 18:43:56] DEBUG: Attempting to authenticate user
+[2024-07-23 18:43:56] DEBUG: ada
+[2024-07-23 18:43:56] DEBUG: 
+
+[2024-07-23 18:43:56] DEBUG: abc:BA@
+
+[2024-07-23 18:43:56] DEBUG: xyz:A@G
+
+[2024-07-23 18:43:56] DEBUG: fgh:G@F
+
+[2024-07-23 18:43:56] DEBUG: efg:@A
+
+[2024-07-23 18:43:56] DEBUG: hjg:
+
+[2024-07-23 18:43:56] DEBUG: yuiop:FEDKJ
+
+[2024-07-23 18:43:56] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-23 18:43:56] DEBUG: asdfghjkl:
+
+[2024-07-23 18:43:56] DEBUG: sdhgrr:
+
+[2024-07-23 18:43:56] DEBUG: xcvnf:
+
+[2024-07-23 18:43:56] DEBUG: ada:BA
+
+[2024-07-23 18:43:56] INFO: Authentication successful
+[2024-07-23 18:43:56] INFO: User ada connected from IP 127.0.0.1
+[2024-07-23 18:44:45] INFO: Starting client
+[2024-07-23 18:44:52] FATAL: Error connecting to server
+[2024-07-23 18:45:06] INFO: Starting client
+[2024-07-23 18:45:13] FATAL: Error connecting to server
+[2024-07-23 18:45:56] INFO: Starting client
+[2024-07-23 18:46:04] FATAL: Error connecting to server
+[2024-07-23 18:46:31] INFO: Starting client
+[2024-07-23 18:46:40] FATAL: Error connecting to server
+[2024-07-23 18:47:37] INFO: Starting client
+[2024-07-23 18:47:47] FATAL: Error connecting to server
+[2024-07-23 18:47:56] INFO: Receive thread ending
+[2024-07-23 18:47:59] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 18:47:59] DEBUG: Chat server thread created successfully.
+[2024-07-23 18:47:59] INFO: Chat server created on port 1234
+[2024-07-23 18:47:59] FATAL: Error binding server socket for server 1
+[2024-07-23 18:48:08] INFO: Closing client connection
+[2024-07-23 18:48:13] INFO: Starting client
+[2024-07-23 18:48:23] FATAL: Error connecting to server
+[2024-07-23 18:48:37] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-23 18:48:37] DEBUG: Chat server thread created successfully.
+[2024-07-23 18:48:37] INFO: Chat server created on port 1234
+[2024-07-23 18:48:37] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-23 18:48:46] INFO: Starting client
+[2024-07-23 18:48:55] INFO: Connected to server
+[2024-07-23 18:49:03] DEBUG: Attempting to authenticate user
+[2024-07-23 18:49:03] DEBUG: ada
+[2024-07-23 18:49:03] DEBUG: 
+
+[2024-07-23 18:49:03] DEBUG: abc:BA@
+
+[2024-07-23 18:49:03] DEBUG: xyz:A@G
+
+[2024-07-23 18:49:03] DEBUG: fgh:G@F
+
+[2024-07-23 18:49:03] DEBUG: efg:@A
+
+[2024-07-23 18:49:03] DEBUG: hjg:
+
+[2024-07-23 18:49:03] DEBUG: yuiop:FEDKJ
+
+[2024-07-23 18:49:03] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-23 18:49:03] DEBUG: asdfghjkl:
+
+[2024-07-23 18:49:03] DEBUG: sdhgrr:
+
+[2024-07-23 18:49:03] DEBUG: xcvnf:
+
+[2024-07-23 18:49:03] DEBUG: ada:BA
+
+[2024-07-23 18:49:03] INFO: Authentication successful
+[2024-07-23 18:49:03] INFO: User ada connected from IP 127.0.0.1
+[2024-07-23 18:49:08] INFO: Starting client
+[2024-07-23 18:49:16] INFO: Connected to server
+[2024-07-23 18:49:26] DEBUG: Attempting to authenticate user
+[2024-07-23 18:49:26] DEBUG: anu
+[2024-07-23 18:49:26] DEBUG: 
+
+[2024-07-23 18:49:26] DEBUG: abc:BA@
+
+[2024-07-23 18:49:26] DEBUG: xyz:A@G
+
+[2024-07-23 18:49:26] DEBUG: fgh:G@F
+
+[2024-07-23 18:49:26] DEBUG: efg:@A
+
+[2024-07-23 18:49:26] DEBUG: hjg:
+
+[2024-07-23 18:49:26] DEBUG: yuiop:FEDKJ
+
+[2024-07-23 18:49:26] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-23 18:49:26] DEBUG: asdfghjkl:
+
+[2024-07-23 18:49:26] DEBUG: sdhgrr:
+
+[2024-07-23 18:49:26] DEBUG: xcvnf:
+
+[2024-07-23 18:49:26] DEBUG: ada:BA
+
+[2024-07-23 18:49:26] DEBUG: anu:@G
+
+[2024-07-23 18:49:26] INFO: Authentication successful
+[2024-07-23 18:49:26] INFO: User anu connected from IP 127.0.0.1
+[2024-07-23 18:51:43] INFO: Client anu disconnected
+[2024-07-23 18:51:46] INFO: Server 1 on port 1234 is shutting down
+[2024-07-23 18:51:46] INFO: Server 1 on port 1234 has been stopped
+[2024-07-23 18:51:46] INFO: Receive thread ending
+[2024-07-24 03:25:06] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 03:25:06] DEBUG: Chat server thread created successfully.
+[2024-07-24 03:25:06] INFO: Chat server created on port 1234
+[2024-07-24 03:25:06] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-24 03:25:49] INFO: Starting client
+[2024-07-24 03:26:04] INFO: Connected to server
+[2024-07-24 03:26:11] DEBUG: Attempting to authenticate user
+[2024-07-24 03:26:11] DEBUG: ada
+[2024-07-24 03:26:11] DEBUG: 
+
+[2024-07-24 03:26:11] DEBUG: abc:BA@
+
+[2024-07-24 03:26:11] DEBUG: xyz:A@G
+
+[2024-07-24 03:26:11] DEBUG: fgh:G@F
+
+[2024-07-24 03:26:11] DEBUG: efg:@A
+
+[2024-07-24 03:26:11] DEBUG: hjg:
+
+[2024-07-24 03:26:11] DEBUG: yuiop:FEDKJ
+
+[2024-07-24 03:26:11] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-24 03:26:11] DEBUG: asdfghjkl:
+
+[2024-07-24 03:26:11] DEBUG: sdhgrr:
+
+[2024-07-24 03:26:11] DEBUG: xcvnf:
+
+[2024-07-24 03:26:11] DEBUG: ada:BA
+
+[2024-07-24 03:26:11] DEBUG: anu:@G
+
+[2024-07-24 03:26:11] WARNING: Authentication failed
+[2024-07-24 03:26:11] INFO: Client  disconnected
+[2024-07-24 03:26:11] INFO: No more clients on server 1. Stopping server.
+[2024-07-24 03:26:32] INFO: Server 1 on port 1234 is shutting down
+[2024-07-24 03:26:32] INFO: Server 1 on port 1234 has been stopped
+[2024-07-24 03:27:25] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 03:27:25] DEBUG: Chat server thread created successfully.
+[2024-07-24 03:27:25] INFO: Chat server created on port 1234
+[2024-07-24 03:27:25] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-24 03:27:30] INFO: Server 1 on port 1234 is shutting down
+[2024-07-24 03:27:30] INFO: Server 1 on port 1234 has been stopped
+[2024-07-24 03:59:32] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 03:59:32] DEBUG: Chat server thread created successfully.
+[2024-07-24 03:59:32] INFO: Chat server created on port 1234
+[2024-07-24 03:59:32] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-24 03:59:53] INFO: Starting client
+[2024-07-24 04:00:08] INFO: Connected to server
+[2024-07-24 04:00:17] INFO: User registered successfully
+[2024-07-24 04:00:17] INFO: User registered successfully
+[2024-07-24 04:00:17] DEBUG: Attempting to authenticate user
+[2024-07-24 04:00:17] DEBUG: asx
+[2024-07-24 04:00:17] DEBUG: 
+
+[2024-07-24 04:00:17] DEBUG: abc:BA@
+
+[2024-07-24 04:00:17] DEBUG: xyz:A@G
+
+[2024-07-24 04:00:17] DEBUG: fgh:G@F
+
+[2024-07-24 04:00:17] DEBUG: efg:@A
+
+[2024-07-24 04:00:17] DEBUG: hjg:
+
+[2024-07-24 04:00:17] DEBUG: yuiop:FEDKJ
+
+[2024-07-24 04:00:17] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-24 04:00:17] DEBUG: asdfghjkl:
+
+[2024-07-24 04:00:17] DEBUG: sdhgrr:
+
+[2024-07-24 04:00:17] DEBUG: xcvnf:
+
+[2024-07-24 04:00:17] DEBUG: ada:BA
+
+[2024-07-24 04:00:17] DEBUG: anu:@G
+
+[2024-07-24 04:00:17] DEBUG: asx:BA
+
+[2024-07-24 04:00:17] INFO: Authentication successful
+[2024-07-24 04:00:17] INFO: User asx connected from IP 127.0.0.1
+[2024-07-24 04:00:49] INFO: Starting client
+[2024-07-24 04:00:56] INFO: Connected to server
+[2024-07-24 04:01:06] INFO: User registered successfully
+[2024-07-24 04:01:06] INFO: User registered successfully
+[2024-07-24 04:01:06] DEBUG: Attempting to authenticate user
+[2024-07-24 04:01:06] DEBUG: qwerf
+[2024-07-24 04:01:06] DEBUG: 
+
+[2024-07-24 04:01:06] DEBUG: abc:BA@
+
+[2024-07-24 04:01:06] DEBUG: xyz:A@G
+
+[2024-07-24 04:01:06] DEBUG: fgh:G@F
+
+[2024-07-24 04:01:06] DEBUG: efg:@A
+
+[2024-07-24 04:01:06] DEBUG: hjg:
+
+[2024-07-24 04:01:06] DEBUG: yuiop:FEDKJ
+
+[2024-07-24 04:01:06] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-24 04:01:06] DEBUG: asdfghjkl:
+
+[2024-07-24 04:01:06] DEBUG: sdhgrr:
+
+[2024-07-24 04:01:06] DEBUG: xcvnf:
+
+[2024-07-24 04:01:06] DEBUG: ada:BA
+
+[2024-07-24 04:01:06] DEBUG: anu:@G
+
+[2024-07-24 04:01:06] DEBUG: asx:BA
+
+[2024-07-24 04:01:06] DEBUG: qwerf:
+
+[2024-07-24 04:01:06] WARNING: Authentication failed
+[2024-07-24 04:01:06] INFO: Client  disconnected
+[2024-07-24 04:01:11] INFO: Starting client
+[2024-07-24 04:01:19] INFO: Connected to server
+[2024-07-24 04:01:27] INFO: User registered successfully
+[2024-07-24 04:01:27] INFO: User registered successfully
+[2024-07-24 04:01:27] DEBUG: Attempting to authenticate user
+[2024-07-24 04:01:27] DEBUG: sadwe
+[2024-07-24 04:01:27] DEBUG: 
+
+[2024-07-24 04:01:27] DEBUG: abc:BA@
+
+[2024-07-24 04:01:27] DEBUG: xyz:A@G
+
+[2024-07-24 04:01:27] DEBUG: fgh:G@F
+
+[2024-07-24 04:01:27] DEBUG: efg:@A
+
+[2024-07-24 04:01:27] DEBUG: hjg:
+
+[2024-07-24 04:01:27] DEBUG: yuiop:FEDKJ
+
+[2024-07-24 04:01:27] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-24 04:01:27] DEBUG: asdfghjkl:
+
+[2024-07-24 04:01:27] DEBUG: sdhgrr:
+
+[2024-07-24 04:01:27] DEBUG: xcvnf:
+
+[2024-07-24 04:01:27] DEBUG: ada:BA
+
+[2024-07-24 04:01:27] DEBUG: anu:@G
+
+[2024-07-24 04:01:27] DEBUG: asx:BA
+
+[2024-07-24 04:01:27] DEBUG: qwerf:
+
+[2024-07-24 04:01:27] DEBUG: sadwe:
+
+[2024-07-24 04:01:27] WARNING: Authentication failed
+[2024-07-24 04:01:27] INFO: Client  disconnected
+[2024-07-24 04:01:38] INFO: Starting client
+[2024-07-24 04:01:48] INFO: Connected to server
+[2024-07-24 04:02:06] INFO: User registered successfully
+[2024-07-24 04:02:06] INFO: User registered successfully
+[2024-07-24 04:02:06] DEBUG: Attempting to authenticate user
+[2024-07-24 04:02:06] DEBUG: wsdef
+[2024-07-24 04:02:06] DEBUG: 
+
+[2024-07-24 04:02:06] DEBUG: abc:BA@
+
+[2024-07-24 04:02:06] DEBUG: xyz:A@G
+
+[2024-07-24 04:02:06] DEBUG: fgh:G@F
+
+[2024-07-24 04:02:06] DEBUG: efg:@A
+
+[2024-07-24 04:02:06] DEBUG: hjg:
+
+[2024-07-24 04:02:06] DEBUG: yuiop:FEDKJ
+
+[2024-07-24 04:02:06] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-24 04:02:06] DEBUG: asdfghjkl:
+
+[2024-07-24 04:02:06] DEBUG: sdhgrr:
+
+[2024-07-24 04:02:06] DEBUG: xcvnf:
+
+[2024-07-24 04:02:06] DEBUG: ada:BA
+
+[2024-07-24 04:02:06] DEBUG: anu:@G
+
+[2024-07-24 04:02:06] DEBUG: asx:BA
+
+[2024-07-24 04:02:06] DEBUG: qwerf:
+
+[2024-07-24 04:02:06] DEBUG: sadwe:
+
+[2024-07-24 04:02:06] DEBUG: wsdef:BA
+
+[2024-07-24 04:02:06] INFO: Authentication successful
+[2024-07-24 04:02:06] INFO: User wsdef connected from IP 127.0.0.1
+[2024-07-24 04:02:39] INFO: Client wsdef disconnected
+[2024-07-24 04:03:00] INFO: Closing client connection
+[2024-07-24 04:03:00] INFO: Client asx disconnected
+[2024-07-24 04:03:00] INFO: No more clients on server 1. Stopping server.
+[2024-07-24 04:03:03] INFO: Server 1 on port 1234 is shutting down
+[2024-07-24 04:03:03] INFO: Server 1 on port 1234 has been stopped
+[2024-07-24 04:04:20] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 04:04:20] DEBUG: Chat server thread created successfully.
+[2024-07-24 04:04:20] INFO: Chat server created on port 1234
+[2024-07-24 04:04:20] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-24 04:04:32] INFO: Starting client
+[2024-07-24 04:04:40] INFO: Connected to server
+[2024-07-24 04:04:49] DEBUG: Attempting to authenticate user
+[2024-07-24 04:04:49] DEBUG: asx
+[2024-07-24 04:04:49] DEBUG: 
+
+[2024-07-24 04:04:49] DEBUG: abc:BA@
+
+[2024-07-24 04:04:49] DEBUG: xyz:A@G
+
+[2024-07-24 04:04:49] DEBUG: fgh:G@F
+
+[2024-07-24 04:04:49] DEBUG: efg:@A
+
+[2024-07-24 04:04:49] DEBUG: hjg:
+
+[2024-07-24 04:04:49] DEBUG: yuiop:FEDKJ
+
+[2024-07-24 04:04:49] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-24 04:04:49] DEBUG: asdfghjkl:
+
+[2024-07-24 04:04:49] DEBUG: sdhgrr:
+
+[2024-07-24 04:04:49] DEBUG: xcvnf:
+
+[2024-07-24 04:04:49] DEBUG: ada:BA
+
+[2024-07-24 04:04:49] DEBUG: anu:@G
+
+[2024-07-24 04:04:49] DEBUG: asx:BA
+
+[2024-07-24 04:04:49] DEBUG: qwerf:
+
+[2024-07-24 04:04:49] DEBUG: sadwe:
+
+[2024-07-24 04:04:49] DEBUG: wsdef:BA
+
+[2024-07-24 04:04:49] WARNING: Authentication failed
+[2024-07-24 04:04:49] INFO: Client  disconnected
+[2024-07-24 04:04:49] INFO: No more clients on server 1. Stopping server.
+[2024-07-24 04:04:51] INFO: Starting client
+[2024-07-24 04:05:01] INFO: Connected to server
+[2024-07-24 04:05:01] INFO: Server 1 on port 1234 is shutting down
+[2024-07-24 04:05:13] INFO: User registered successfully
+[2024-07-24 04:05:13] INFO: User registered successfully
+[2024-07-24 04:05:13] DEBUG: Attempting to authenticate user
+[2024-07-24 04:05:13] DEBUG: dfes
+[2024-07-24 04:05:13] DEBUG: 
+
+[2024-07-24 04:05:13] DEBUG: abc:BA@
+
+[2024-07-24 04:05:13] DEBUG: xyz:A@G
+
+[2024-07-24 04:05:13] DEBUG: fgh:G@F
+
+[2024-07-24 04:05:13] DEBUG: efg:@A
+
+[2024-07-24 04:05:13] DEBUG: hjg:
+
+[2024-07-24 04:05:13] DEBUG: yuiop:FEDKJ
+
+[2024-07-24 04:05:13] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-24 04:05:13] DEBUG: asdfghjkl:
+
+[2024-07-24 04:05:13] DEBUG: sdhgrr:
+
+[2024-07-24 04:05:13] DEBUG: xcvnf:
+
+[2024-07-24 04:05:13] DEBUG: ada:BA
+
+[2024-07-24 04:05:13] DEBUG: anu:@G
+
+[2024-07-24 04:05:13] DEBUG: asx:BA
+
+[2024-07-24 04:05:13] DEBUG: qwerf:
+
+[2024-07-24 04:05:13] DEBUG: sadwe:
+
+[2024-07-24 04:05:13] DEBUG: wsdef:BA
+
+[2024-07-24 04:05:13] DEBUG: dfes:psr$
+
+[2024-07-24 04:05:13] INFO: Authentication successful
+[2024-07-24 04:05:13] INFO: User dfes connected from IP 127.0.0.1
+[2024-07-24 04:05:19] INFO: Starting client
+[2024-07-24 04:05:25] FATAL: Error connecting to server
+[2024-07-24 04:05:33] INFO: Starting client
+[2024-07-24 04:05:41] FATAL: Error connecting to server
+[2024-07-24 04:05:59] INFO: Starting client
+[2024-07-24 04:06:06] FATAL: Error connecting to server
+[2024-07-24 04:06:10] INFO: Receive thread ending
+[2024-07-24 04:06:13] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 04:06:13] DEBUG: Chat server thread created successfully.
+[2024-07-24 04:06:13] INFO: Chat server created on port 1234
+[2024-07-24 04:06:13] FATAL: Error binding server socket for server 1
+[2024-07-24 04:06:32] INFO: Closing client connection
+[2024-07-24 04:06:38] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 04:06:38] DEBUG: Chat server thread created successfully.
+[2024-07-24 04:06:38] INFO: Chat server created on port 1234
+[2024-07-24 04:06:38] FATAL: Error binding server socket for server 1
+[2024-07-24 04:06:50] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 04:06:50] DEBUG: Chat server thread created successfully.
+[2024-07-24 04:06:50] INFO: Chat server created on port 1234
+[2024-07-24 04:06:50] FATAL: Error binding server socket for server 1
+[2024-07-24 04:06:56] INFO: Starting client
+[2024-07-24 04:07:01] FATAL: Error connecting to server
+[2024-07-24 04:07:18] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 04:07:18] DEBUG: Chat server thread created successfully.
+[2024-07-24 04:07:18] INFO: Chat server created on port 1234
+[2024-07-24 04:07:18] FATAL: Error binding server socket for server 1
+[2024-07-24 04:07:34] DEBUG: Creating chat server with id 1 and port 4321
+[2024-07-24 04:07:34] DEBUG: Chat server thread created successfully.
+[2024-07-24 04:07:34] INFO: Chat server created on port 4321
+[2024-07-24 04:07:34] INFO: Server 1 started on port 4321. Waiting for connections...
+[2024-07-24 04:07:48] INFO: Starting client
+[2024-07-24 04:07:57] INFO: Connected to server
+[2024-07-24 04:08:05] INFO: User registered successfully
+[2024-07-24 04:08:05] INFO: User registered successfully
+[2024-07-24 04:08:05] DEBUG: Attempting to authenticate user
+[2024-07-24 04:08:05] DEBUG: ghjd
+[2024-07-24 04:08:05] DEBUG: 
+
+[2024-07-24 04:08:05] DEBUG: abc:BA@
+
+[2024-07-24 04:08:05] DEBUG: xyz:A@G
+
+[2024-07-24 04:08:05] DEBUG: fgh:G@F
+
+[2024-07-24 04:08:05] DEBUG: efg:@A
+
+[2024-07-24 04:08:05] DEBUG: hjg:
+
+[2024-07-24 04:08:05] DEBUG: yuiop:FEDKJ
+
+[2024-07-24 04:08:05] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-24 04:08:05] DEBUG: asdfghjkl:
+
+[2024-07-24 04:08:05] DEBUG: sdhgrr:
+
+[2024-07-24 04:08:05] DEBUG: xcvnf:
+
+[2024-07-24 04:08:05] DEBUG: ada:BA
+
+[2024-07-24 04:08:05] DEBUG: anu:@G
+
+[2024-07-24 04:08:05] DEBUG: asx:BA
+
+[2024-07-24 04:08:05] DEBUG: qwerf:
+
+[2024-07-24 04:08:05] DEBUG: sadwe:
+
+[2024-07-24 04:08:05] DEBUG: wsdef:BA
+
+[2024-07-24 04:08:05] DEBUG: dfes:psr$
+
+[2024-07-24 04:08:05] DEBUG: ghjd:s6$r
+
+[2024-07-24 04:08:05] INFO: Authentication successful
+[2024-07-24 04:08:05] INFO: User ghjd connected from IP 127.0.0.1
+[2024-07-24 04:08:10] INFO: Starting client
+[2024-07-24 04:08:16] INFO: Connected to server
+[2024-07-24 04:08:24] INFO: User registered successfully
+[2024-07-24 04:08:24] INFO: User registered successfully
+[2024-07-24 04:08:24] DEBUG: Attempting to authenticate user
+[2024-07-24 04:08:24] DEBUG: tyfd
+[2024-07-24 04:08:24] DEBUG: 
+
+[2024-07-24 04:08:24] DEBUG: abc:BA@
+
+[2024-07-24 04:08:24] DEBUG: xyz:A@G
+
+[2024-07-24 04:08:24] DEBUG: fgh:G@F
+
+[2024-07-24 04:08:24] DEBUG: efg:@A
+
+[2024-07-24 04:08:24] DEBUG: hjg:
+
+[2024-07-24 04:08:24] DEBUG: yuiop:FEDKJ
+
+[2024-07-24 04:08:24] DEBUG: qwertyuiop:BA@GFEDKJC
+
+[2024-07-24 04:08:24] DEBUG: asdfghjkl:
+
+[2024-07-24 04:08:24] DEBUG: sdhgrr:
+
+[2024-07-24 04:08:24] DEBUG: xcvnf:
+
+[2024-07-24 04:08:24] DEBUG: ada:BA
+
+[2024-07-24 04:08:24] DEBUG: anu:@G
+
+[2024-07-24 04:08:24] DEBUG: asx:BA
+
+[2024-07-24 04:08:24] DEBUG: qwerf:
+
+[2024-07-24 04:08:24] DEBUG: sadwe:
+
+[2024-07-24 04:08:24] DEBUG: wsdef:BA
+
+[2024-07-24 04:08:24] DEBUG: dfes:psr$
+
+[2024-07-24 04:08:24] DEBUG: ghjd:s6$r
+
+[2024-07-24 04:08:24] DEBUG: tyfd:60$
+
+[2024-07-24 04:08:24] INFO: Authentication successful
+[2024-07-24 04:08:24] INFO: User tyfd connected from IP 127.0.0.1
+[2024-07-24 04:08:48] INFO: Closing client connection
+[2024-07-24 04:08:48] INFO: Client ghjd disconnected
+[2024-07-24 04:08:57] INFO: Closing client connection
+[2024-07-24 04:08:57] INFO: Client tyfd disconnected
+[2024-07-24 04:08:57] INFO: No more clients on server 1. Stopping server.
+[2024-07-24 04:08:59] INFO: Server 1 on port 4321 is shutting down
+[2024-07-24 04:08:59] INFO: Server 1 on port 4321 has been stopped
+[2024-07-24 04:09:03] DEBUG: Creating chat server with id 1 and port 4321
+[2024-07-24 04:09:03] DEBUG: Chat server thread created successfully.
+[2024-07-24 04:09:03] INFO: Chat server created on port 4321
+[2024-07-24 04:09:03] INFO: Server 1 started on port 4321. Waiting for connections...
+[2024-07-24 04:09:04] INFO: Server 1 on port 4321 is shutting down
+[2024-07-24 04:09:04] INFO: Server 1 on port 4321 has been stopped
+[2024-07-24 04:09:09] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 04:09:09] DEBUG: Chat server thread created successfully.
+[2024-07-24 04:09:09] INFO: Chat server created on port 1234
+[2024-07-24 04:09:09] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-24 04:09:12] INFO: Server 1 on port 1234 is shutting down
+[2024-07-24 04:09:12] INFO: Server 1 on port 1234 has been stopped

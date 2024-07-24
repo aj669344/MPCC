@@ -3,7 +3,7 @@
 
 // Simple XOR encryption for demonstration purposes
 
-#define KEY 0x73
+#define KEY 0x41
 
 void custom_encrypt(const char *input, char *output)
 {

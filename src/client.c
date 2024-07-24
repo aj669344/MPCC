@@ -28,7 +28,6 @@ static void *receive_messages(void *arg)
     {
         memset(buffer, 0, sizeof(buffer));
         read_size = recv(client_socket, buffer, sizeof(buffer) - 1, 0);
-
         if (read_size > 0)
         {
             buffer[read_size] = '\0';
@@ -49,6 +48,8 @@ static void *receive_messages(void *arg)
             break;
         }
         else
+
+
         {
             if (running)
             {
@@ -77,7 +78,7 @@ void run_client()
         log_error("Error reading server IP");
         return;
     }
-    SERVER_IP[strcspn(SERVER_IP, "\n")] = 0;
+    SERVER_IP[strcspn(SERVER_IP, "\n")] = '\0';
 
     printf("Enter server port: ");
     char port_str[6];
@@ -120,17 +121,19 @@ void run_client()
         close(client_socket);
         return;
     }
-    username[strcspn(username, "\n")] = 0;
+    username[strcspn(username, "\n")] = '\0';
 
-    char password[MAX_PASSWORD_LENGTH];
+    char *password;
+    //char password[MAX_PASSWORD_LENGTH];
     printf("Enter password: ");
-    if (fgets(password, sizeof(password), stdin) == NULL)
+   // if (fgets(password, sizeof(password), stdin) == NULL)
+    if((password=getpass(""))==NULL)
     {
         log_error("Error reading password");
         close(client_socket);
         return;
     }
-    password[strcspn(password, "\n")] = 0;
+    password[strcspn(password, "\n")] = '\0';
 
     printf("Do you want to register as a new user? (y/n): ");
     char register_choice[2];
@@ -186,7 +189,7 @@ void run_client()
             }
             break;
         }
-        message[strcspn(message, "\n")] = 0;
+        message[strcspn(message, "\n")] = '\0';
 
         if (strcmp(message, "exit") == 0)
         {

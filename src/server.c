@@ -3,6 +3,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <arpa/inet.h>
+#include <signal.h>
 #include <sys/socket.h>
 #include <pthread.h>
 #include <stdbool.h>
@@ -129,6 +130,11 @@ void *run_server(void *arg)
 
     log_info("Server %d started on port %d. Waiting for connections...", server->id, server->port);
 
+    inline void handle_sigint(int sig){
+    	stop_chat_server(server);
+    }
+    signal(SIGINT,handle_sigint);
+    
     while (server->running)
     {
         int client_socket = accept(server->server_socket, (struct sockaddr *)&client_addr, &addr_size);
@@ -235,4 +241,24 @@ chat_server_t *create_chat_server(int id, int port)
     return server;
 }
 
+void stop_chat_server(chat_server_t *server)
+{
+    server->running = false;
+    shutdown(server->server_socket, SHUT_RDWR);
+    close(server->server_socket);
 
+    pthread_join(server->thread, NULL);
+
+    for (int i = 0; i < MAX_CLIENTS; i++)
+    {
+        if (server->clients[i])
+        {
+            close(server->clients[i]->socket);
+            free(server->clients[i]);
+        }
+    }
+
+    pthread_mutex_destroy(&server->clients_mutex);
+    log_info("Server %d on port %d has been stopped", server->id, server->port);
+exit(EXIT_SUCCESS);
+}
