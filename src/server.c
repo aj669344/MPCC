@@ -146,15 +146,13 @@ void *run_server(void *arg)
 
     log_info("Server %d started on port %d. Waiting for connections...", server->id, server->port);
 
-<<<<<<< HEAD
     inline void handle_sigint(int sig){
     	stop_chat_server(server);
     }
     signal(SIGINT,handle_sigint);
-    
-=======
+   
+
     // Accept and handle incoming client connections
->>>>>>> 182c2d64a32d6b2409afb8d20224a3cca624eb09
     while (server->running)
     {
         int client_socket = accept(server->server_socket, (struct sockaddr *)&client_addr, &addr_size);
@@ -270,7 +268,6 @@ chat_server_t *create_chat_server(int id, int port)
     log_debug("Chat server thread created successfully.");
     return server;
 }
-<<<<<<< HEAD
 
 void stop_chat_server(chat_server_t *server)
 {
@@ -293,5 +290,3 @@ void stop_chat_server(chat_server_t *server)
     log_info("Server %d on port %d has been stopped", server->id, server->port);
 exit(EXIT_SUCCESS);
 }
-=======
->>>>>>> 182c2d64a32d6b2409afb8d20224a3cca624eb09

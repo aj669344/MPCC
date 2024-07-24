@@ -1254,3 +1254,9 @@
 [2024-07-24 04:09:09] INFO: Server 1 started on port 1234. Waiting for connections...
 [2024-07-24 04:09:12] INFO: Server 1 on port 1234 is shutting down
 [2024-07-24 04:09:12] INFO: Server 1 on port 1234 has been stopped
+[2024-07-24 04:20:50] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 04:20:50] DEBUG: Chat server thread created successfully.
+[2024-07-24 04:20:50] INFO: Chat server created on port 1234
+[2024-07-24 04:20:50] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-24 04:20:52] INFO: Server 1 on port 1234 is shutting down
+[2024-07-24 04:20:52] INFO: Server 1 on port 1234 has been stopped

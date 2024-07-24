@@ -133,13 +133,11 @@ void run_client()
     }
     username[strcspn(username, "\n")] = '\0';
 
-<<<<<<< HEAD
     char *password;
     //char password[MAX_PASSWORD_LENGTH];
-=======
     // Read password from user
-    char password[MAX_PASSWORD_LENGTH];
->>>>>>> 182c2d64a32d6b2409afb8d20224a3cca624eb09
+   // char password[MAX_PASSWORD_LENGTH];
+
     printf("Enter password: ");
    // if (fgets(password, sizeof(password), stdin) == NULL)
     if((password=getpass(""))==NULL)
