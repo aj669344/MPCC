@@ -1,0 +1,5 @@
+ada:p0s6
+anu:r$u3
+abc:p0s6
+fgh:r$u3
+ert:p0s6

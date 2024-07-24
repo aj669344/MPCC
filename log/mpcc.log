@@ -1260,3 +1260,127 @@
 [2024-07-24 04:20:50] INFO: Server 1 started on port 1234. Waiting for connections...
 [2024-07-24 04:20:52] INFO: Server 1 on port 1234 is shutting down
 [2024-07-24 04:20:52] INFO: Server 1 on port 1234 has been stopped
+[2024-07-24 09:23:35] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 09:23:35] DEBUG: Chat server thread created successfully.
+[2024-07-24 09:23:35] INFO: Chat server created on port 1234
+[2024-07-24 09:23:35] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-24 09:24:30] INFO: Starting client
+[2024-07-24 09:24:38] INFO: Connected to server
+[2024-07-24 09:24:46] INFO: User registered successfully
+[2024-07-24 09:24:46] INFO: User registered successfully
+[2024-07-24 09:24:46] DEBUG: Attempting to authenticate user
+[2024-07-24 09:24:46] DEBUG: ada
+[2024-07-24 09:24:46] DEBUG: ada:p0s6
+
+[2024-07-24 09:24:46] INFO: Authentication successful
+[2024-07-24 09:24:46] INFO: User ada connected from IP 127.0.0.1
+[2024-07-24 09:25:20] FATAL: Invalid mode. Use 'server' or 'client'.
+[2024-07-24 09:25:26] INFO: Starting client
+[2024-07-24 09:25:33] INFO: Connected to server
+[2024-07-24 09:25:41] INFO: User registered successfully
+[2024-07-24 09:25:41] INFO: User registered successfully
+[2024-07-24 09:25:41] DEBUG: Attempting to authenticate user
+[2024-07-24 09:25:41] DEBUG: anu
+[2024-07-24 09:25:41] DEBUG: ada:p0s6
+
+[2024-07-24 09:25:41] DEBUG: anu:r$u3
+
+[2024-07-24 09:25:41] INFO: Authentication successful
+[2024-07-24 09:25:41] INFO: User anu connected from IP 127.0.0.1
+[2024-07-24 09:27:29] INFO: Server 1 on port 1234 is shutting down
+[2024-07-24 09:27:29] INFO: Server 1 on port 1234 has been stopped
+[2024-07-24 09:27:29] INFO: Receive thread ending
+[2024-07-24 09:27:29] INFO: Receive thread ending
+[2024-07-24 09:27:33] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 09:27:33] DEBUG: Chat server thread created successfully.
+[2024-07-24 09:27:33] INFO: Chat server created on port 1234
+[2024-07-24 09:27:33] FATAL: Error binding server socket for server 1
+[2024-07-24 09:27:40] INFO: Closing client connection
+[2024-07-24 09:27:44] INFO: Closing client connection
+[2024-07-24 09:27:57] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 09:27:57] DEBUG: Chat server thread created successfully.
+[2024-07-24 09:27:57] INFO: Chat server created on port 1234
+[2024-07-24 09:27:57] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-24 09:28:00] INFO: Server 1 on port 1234 is shutting down
+[2024-07-24 09:28:00] INFO: Server 1 on port 1234 has been stopped
+[2024-07-24 11:35:25] DEBUG: Creating chat server with id 1 and port 6666
+[2024-07-24 11:35:25] DEBUG: Chat server thread created successfully.
+[2024-07-24 11:35:25] INFO: Chat server created on port 6666
+[2024-07-24 11:35:25] INFO: Server 1 started on port 6666. Waiting for connections...
+[2024-07-24 11:35:43] INFO: Starting client
+[2024-07-24 11:35:51] INFO: Connected to server
+[2024-07-24 11:36:02] INFO: User registered successfully
+[2024-07-24 11:36:02] INFO: User registered successfully
+[2024-07-24 11:36:02] DEBUG: Attempting to authenticate user
+[2024-07-24 11:36:02] DEBUG: abc
+[2024-07-24 11:36:02] DEBUG: ada:p0s6
+
+[2024-07-24 11:36:02] DEBUG: anu:r$u3
+
+[2024-07-24 11:36:02] DEBUG: abc:p0s6
+
+[2024-07-24 11:36:02] INFO: Authentication successful
+[2024-07-24 11:36:02] INFO: User abc connected from IP 127.0.0.1
+[2024-07-24 11:36:23] INFO: Starting client
+[2024-07-24 11:36:29] INFO: Connected to server
+[2024-07-24 11:36:39] DEBUG: Attempting to authenticate user
+[2024-07-24 11:36:39] DEBUG: ada
+[2024-07-24 11:36:39] DEBUG: ada:p0s6
+
+[2024-07-24 11:36:39] INFO: Authentication successful
+[2024-07-24 11:36:39] INFO: User ada connected from IP 127.0.0.1
+[2024-07-24 11:38:54] INFO: Client ada disconnected
+[2024-07-24 11:42:07] INFO: Starting client
+[2024-07-24 11:42:13] INFO: Connected to server
+[2024-07-24 11:42:21] DEBUG: Attempting to authenticate user
+[2024-07-24 11:42:21] DEBUG: ada
+[2024-07-24 11:42:21] DEBUG: ada:p0s6
+
+[2024-07-24 11:42:21] INFO: Authentication successful
+[2024-07-24 11:42:21] INFO: User ada connected from IP 127.0.0.1
+[2024-07-24 11:43:03] DEBUG: Creating chat server with id 1 and port 1234
+[2024-07-24 11:43:03] DEBUG: Chat server thread created successfully.
+[2024-07-24 11:43:03] INFO: Chat server created on port 1234
+[2024-07-24 11:43:03] INFO: Server 1 started on port 1234. Waiting for connections...
+[2024-07-24 11:43:36] INFO: Starting client
+[2024-07-24 11:43:52] INFO: Connected to server
+[2024-07-24 11:44:12] INFO: User registered successfully
+[2024-07-24 11:44:12] INFO: User registered successfully
+[2024-07-24 11:44:12] DEBUG: Attempting to authenticate user
+[2024-07-24 11:44:12] DEBUG: fgh
+[2024-07-24 11:44:12] DEBUG: ada:p0s6
+
+[2024-07-24 11:44:12] DEBUG: anu:r$u3
+
+[2024-07-24 11:44:12] DEBUG: abc:p0s6
+
+[2024-07-24 11:44:12] DEBUG: fgh:r$u3
+
+[2024-07-24 11:44:12] INFO: Authentication successful
+[2024-07-24 11:44:12] INFO: User fgh connected from IP 127.0.0.1
+[2024-07-24 11:44:49] INFO: Starting client
+[2024-07-24 11:44:55] INFO: Connected to server
+[2024-07-24 11:45:01] INFO: User registered successfully
+[2024-07-24 11:45:01] INFO: User registered successfully
+[2024-07-24 11:45:01] DEBUG: Attempting to authenticate user
+[2024-07-24 11:45:01] DEBUG: ert
+[2024-07-24 11:45:01] DEBUG: ada:p0s6
+
+[2024-07-24 11:45:01] DEBUG: anu:r$u3
+
+[2024-07-24 11:45:01] DEBUG: abc:p0s6
+
+[2024-07-24 11:45:01] DEBUG: fgh:r$u3
+
+[2024-07-24 11:45:01] DEBUG: ert:p0s6
+
+[2024-07-24 11:45:01] INFO: Authentication successful
+[2024-07-24 11:45:01] INFO: User ert connected from IP 127.0.0.1
+[2024-07-24 11:56:10] INFO: Closing client connection
+[2024-07-24 11:56:10] INFO: Client ert disconnected
+[2024-07-24 12:01:29] INFO: Receive thread ending
+[2024-07-24 12:01:30] INFO: Closing client connection
+[2024-07-24 12:01:30] INFO: Receive thread ending
+[2024-07-24 12:01:30] INFO: Receive thread ending
+[2024-07-24 12:01:31] INFO: Closing client connection
+[2024-07-24 12:01:31] INFO: Closing client connection
