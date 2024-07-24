@@ -10,9 +10,9 @@ void custom_encrypt(const char *input, char *output)
     int len = strlen(input);
     for (int i = 0; i < len; i++)
     {
-        output[i] = input[i] ^ KEY;
+        output[i] = input[i] ^ KEY; // XOR each character of input with KEY
     }
-    output[len] = '\0';
+    output[len] = '\0'; // Add null terminator to mark end of string
 }
 
 void custom_decrypt(const char *input, char *output)
@@ -20,8 +20,7 @@ void custom_decrypt(const char *input, char *output)
     int len = strlen(input);
     for (int i = 0; i < len; i++)
     {
-        output[i] = input[i] ^ KEY;
+        output[i] = input[i] ^ KEY; // XOR each character of input with KEY
     }
-    output[len] = '\0';
+    output[len] = '\0'; // Add null terminator to mark end of string
 }
-
