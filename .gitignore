@@ -1,4 +1,4 @@
-bin/
-dat/
-log/
-obj/
+bin/*
+dat/*
+log/*
+obj/*
